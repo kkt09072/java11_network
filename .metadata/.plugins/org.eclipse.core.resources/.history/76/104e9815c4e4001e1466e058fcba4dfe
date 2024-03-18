@@ -1,0 +1,15 @@
+package sec3;
+
+import java.io.IOException;
+import java.net.ServerSocket;
+
+public class MyServer {
+	public static void main(String[] args) {
+		try {
+			ServerSocket server = new ServerSocket(6000);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+	}
+}

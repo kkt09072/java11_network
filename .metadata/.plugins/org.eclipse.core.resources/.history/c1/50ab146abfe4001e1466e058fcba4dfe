@@ -1,0 +1,30 @@
+package sec2;
+
+import com.sun.media.sound.Toolkit;
+
+//Tread(쓰레드) = Process(프로세스) = 현재 컴퓨터에서 실행 중인 프로그램(작업)
+public class ThreadExam1 {
+
+	public static void firstThread() {
+		System.out.println("첫 번째 쓰레드");
+	}
+
+	public static void secondaryThread() {
+		Tookit toolkit = Toolkit.getDefaultToolkit();
+	}
+	
+	public static void main(String[] args) {
+		Thread thread1 = new Thread(new Runnable() {
+			@Override
+			public void run() {
+				firstThread();
+			}
+		});	//쓰레드(실행가능한 작업)
+		thread1.run();
+		thread1.start();
+		System.out.println(thread1.getName());
+		
+		Thread thread2 = new Thread();
+	}
+
+}

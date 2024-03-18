@@ -1,0 +1,11 @@
+package sec1;
+
+public class NetworkExam1 {
+
+	public static void main(String[] args) {
+		System.out.println("Network : 여러 컴퓨터를 통신 회선으로 연결한 망");
+		
+
+	}
+
+}
