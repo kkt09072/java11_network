@@ -30,20 +30,18 @@ hostName으로 지정된 모든 컴퓨터(하나의 도메인 이름으로 여�
  
 */
 public class InetAddressExam {
-
 	public static void main(String[] args) {
 		InetAddress test = null;
 		try {
-			test = InetAddress.getLocalHost();
+			test = InetAddress.getLocalHost();	//현재 로컬 컴퓨터
 		} catch (UnknownHostException e) {
 			e.printStackTrace();
 		}
 		System.out.println("현재 로컬 컴퓨터의 네트워크 정보");
         System.out.println(test.getHostName() + " " + test.getHostAddress());
-        
         InetAddress google_address = null;
         try {
-			google_address = InetAddress.getByName("www.google.com");
+			google_address = InetAddress.getByName("www.google.com");	//도메인 네임으로 해당 서버의 네트워크 정보
 		} catch (UnknownHostException e) {
 			e.printStackTrace();
 		}
