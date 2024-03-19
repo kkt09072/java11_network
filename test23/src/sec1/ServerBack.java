@@ -90,7 +90,7 @@ public class ServerBack extends Thread {
 				serverChatGui.appendUserList(nickNameList);
 				transmitAll(nickName+"님이 입장하셨습니다.\n");
 				for(int i=0;i<nickNameList.size();i++) {
-					transmitAll(nickName+nickNameList.get(i));
+					transmitAll("+++닉네임의시작+++"+nickName+nickNameList.get(i));
 				}
 				serverChatGui.appendMessage(nickName+"님이 입장하셨습니다.\n");
 				while(true) {
@@ -103,7 +103,7 @@ public class ServerBack extends Thread {
 				removeClient(this, nickName);
 				transmitAll(nickName + "님이 퇴장하셨습니다.");
 				for(int i=0;i<nickNameList.size();i++) {
-					transmitAll(nickName+nickNameList.get(i));
+					transmitAll("+++닉네임의시작+++"+nickNameList.get(i));
 				}
 				serverChatGui.appendMessage(nickName+"님이 퇴장하셨습니다.\n");
 			}
