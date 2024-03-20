@@ -9,12 +9,12 @@ import java.net.InetAddress;
 public class UDPClient {
 	private static String rData;
 	private static BufferedReader file;
-	private static int SERVER_PORT = 7000;
+	private static int SERVER_PORT = 8000;
 	public static void main(String[] args) {
 		DatagramSocket socket = null;
 		DatagramPacket packet = null;
 		
-		String rip = "localhost";
+		String rip = "210.123.19.1";
 		try {
 			//송신(발신)
 			InetAddress ip = InetAddress.getByName(rip);
