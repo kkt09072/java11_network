@@ -9,7 +9,7 @@ import java.net.URLEncoder;
 //URLDecoder : 웹에서 사용하는 형태의 코드값을 다른 데스크톱 프로그램에서 인식가능한 MS949로 변경
 public class URLEncoderExam {
 	public URLEncoderExam() {
-		String msg = "abc가나다def1234學校";
+		String msg = "abc가나다def1234學校勉強しないでください";
 		String enc_data;
 		try {
 			enc_data = URLEncoder.encode(msg, "UTF-8");
