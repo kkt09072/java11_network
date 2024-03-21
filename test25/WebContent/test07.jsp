@@ -36,7 +36,7 @@
 	
 	RequestDispatcher rd = request.getRequestDispatcher("test08.jsp"); //목적지 지정
 	rd.forward(request, response); //데이터 전달
-	response.sendRedirect("test08.jsp"); //페이지 이동
+	response.sendRedirect("test08.jsp"); //데이터 이동(화면 이동X) : URL은 test07.jsp이지만, 화면의 내용은 test08.jsp로 출력됨.
 %>
 <h2>객체 데이터 전달하기</h2>
 </body>
