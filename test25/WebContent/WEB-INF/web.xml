@@ -14,4 +14,20 @@
   	<param-name>admin</param-name>
   	<param-value>kimkitae</param-value>
   </context-param>
+  <error-page>
+  	<error-code>404</error-code>
+  	<location>/notFoundErrorPage.jsp</location>
+  </error-page>
+  <error-page>
+  	<error-code>500</error-code>
+  	<location>/notAllowedErrorPage.jsp</location>
+  </error-page>
+  <error-page>
+  	<exception-type>java.lang.NumberFormatException</exception-type>
+  	<location>/errorPage.jsp</location>
+  </error-page>
+  <error-page>
+  	<exception-type>java.lang.Exception</exception-type>
+  	<location>/errorPage.jsp</location>
+  </error-page>
 </web-app>
