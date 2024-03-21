@@ -15,6 +15,8 @@
 			<li><a href="test02.jsp?name='김기태'&age=43&point=80">GET 데이터 전송</a></li>
 			<li><a href="test03.jsp">POST 데이터 전송</a></li>
 			<li><a href="test04.jsp">데이터 전송 비교</a></li>
+			<li><a href="test05.jsp?msg=복습하세요">메시지 전달</a></li>
+			<li><a href="test06.jsp">jsp의 기본 객체</a></li>
 		</ul>
 	</nav>
 </body>

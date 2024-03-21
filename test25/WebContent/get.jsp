@@ -11,6 +11,7 @@
 	request.setCharacterEncoding("UTF-8");
 	String name = request.getParameter("name");
 	int age = Integer.parseInt(request.getParameter("age"));
+	
 %>
 <h3>전송 결과</h3>
 <p><strong>이름</strong> : <%=name %></p>
