@@ -14,7 +14,7 @@
 			<li><a href="test01.jsp">JSP 페이지의 기본 구성 요소</a></li>
 			<li><a href="test02.jsp?name='김기태'&age=43&point=80">GET 데이터 전송</a></li>
 			<li><a href="test03.jsp">POST 데이터 전송</a></li>
-			<li><a href=""></a></li>
+			<li><a href="test04.jsp">데이터 전송 비교</a></li>
 		</ul>
 	</nav>
 </body>
