@@ -13,10 +13,12 @@
 <body>
 <%
 	request.setCharacterEncoding("UTF-8");
-	request.setAttribute("no", request.getParameter("no"));
-	request.setAttribute("id", request.getParameter("id"));
-	request.setAttribute("pw", request.getParameter("pw"));
-	request.setAttribute("name", request.getParameter("name"));
+	//request.setAttribute("no", request.getParameter("no"));
+	//request.setAttribute("id", request.getParameter("id"));
+	//request.setAttribute("pw", request.getParameter("pw"));
+	//request.setAttribute("name", request.getParameter("name"));
+	//String[] sports = request.getParameterValues("sports");
+	//int len = sports.length;
 %>
 <%@ include file="menu.jsp" %>
 <hr>
@@ -31,10 +33,15 @@
 <hr>
 <h2>POST 전송 결과2</h2>
 <div>
-	<p>no : ${no }</p>
-	<p>id : ${id }</p>
-	<p>pw : ${pw }</p>
-	<p>name : ${name }</p>
+	<p>no : ${param.no }</p>
+	<p>id : ${param.id }</p>
+	<p>pw : ${param.pw }</p>
+	<p>name : ${param.name }</p>
+	<p>좋아하는 스포츠</p>
+	<ul>
+		<li>${paramValues.sports[0] }</li>
+		<li>${paramValues.sports[1] }</li>
+	</ul>
 </div>
 </body>
 </html>

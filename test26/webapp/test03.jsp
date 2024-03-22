@@ -31,6 +31,14 @@
 		<input type="text" size="40" name="id" id="id" placeholder="아이디 입력" required><br><br>
 		<input type="password" size="40" name="pw" id="pw" placeholder="암호 입력" required><br><br>
 		<input type="text" size="40" name="name" id="name" placeholder="이름 입력" required><br><br>
+		<div>
+			<h4>좋아하는 스포츠 - 2개 이상 선택</h4>
+			<input type="checkbox" name="sports" id="sports1" value="축구"><label for="sports1">축구</label><br>
+			<input type="checkbox" name="sports" id="sports2" value="야구"><label for="sports2">야구</label><br>
+			<input type="checkbox" name="sports" id="sports3" value="배구"><label for="sports3">배구</label><br>
+			<input type="checkbox" name="sports" id="sports4" value="농구"><label for="sports4">농구</label><br>
+			<input type="checkbox" name="sports" id="sports5" value="피구"><label for="sports5">피구</label><br>
+		</div>
 		<input type="submit" value="회원 추가">&nbsp;&nbsp;&nbsp;&nbsp;
 		<input type="reset" value="취소">
 	</form>
