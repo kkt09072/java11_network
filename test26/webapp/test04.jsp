@@ -40,7 +40,7 @@
     <p>num1 % num2 = ${num1 % num2 }</p>
     <p>num1 mod num2 = ${num1 mod num2 }</p>
     <p>※ 문자열 연산도 숫자 덧셈이 되며, 문자열은 덧셈만 가능</p>
-    <p>num1 + "34" = ${num1 + "34" }</p>
+    <p>num1 + "34" = ${num1 + "34" }</p> 
     <p>"12" + "34" = ${"12" + "34" }</p>
     <hr>
     <h3>EL Operation - Compare(비교연산)</h3>

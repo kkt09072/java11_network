@@ -8,4 +8,5 @@
 	<li><a href="test02.jsp">객체와 표현언어</a></li>
 	<li><a href="test03.jsp">폼 데이터 전송과 표현언어</a></li>
 	<li><a href="test04.jsp">표현언어의 연산</a></li>
+	<li><a href="test05.jsp">표현언어의 비교문장</a></li>
 </ul>
