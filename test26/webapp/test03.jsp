@@ -26,7 +26,14 @@
 <div>
 	<h3>POST 전송</h3>
 	<hr>
-	
+	<form action="test03_post.jsp" method="post">
+		<input type="number" size="40" name="no" id="no" vaule="1" min="1" max="100" required><br><br>
+		<input type="text" size="40" name="id" id="id" placeholder="아이디 입력" required><br><br>
+		<input type="password" size="40" name="pw" id="pw" placeholder="암호 입력" required><br><br>
+		<input type="text" size="40" name="name" id="name" placeholder="이름 입력" required><br><br>
+		<input type="submit" value="회원 추가">&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="reset" value="취소">
+	</form>
 </div>
 </body>
 </html>
