@@ -14,4 +14,7 @@
 	<li><a href="test08.jsp">jstl의 fn 태그</a></li>
 	<li><a href="test09.jsp">jstl의 xml 태그</a></li>
 	<li><a href="test10.jsp">jstl의 sql 태그</a></li>
+	<li><a href="test11.jsp">액션태그 - useBean, forward</a></li>
+	<li><a href="test12.jsp">액션태그 - forward, param</a></li>
+	<li><a href="test13.jsp">액션태그 - setProperty, getProperty</a></li>
 </ul>
